@@ -6,6 +6,7 @@ h1 {
 body {
     background-image: radial-gradient(54.97% 272.54% at 27.36% -134.72%, rgba(82, 80, 80, 0.92)0, rgba(201, 196, 193, 0.92)100%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
 }
 
 /* nav bar */
@@ -28,12 +29,25 @@ nav img {
 .navElements {
     float: right;
     margin: 1.25rem;
-    margin-right: 2rem;
+    margin-right: 0rem;
 }
 
-.navElements a {
-    margin-right: 0.5rem;
-    padding: 0.5rem;
+.link1, .link2, .link4 {
+    padding: 4rem 2rem 4rem 2rem;
+}
+
+.link3 {
+    padding: 4rem 1rem 4rem 1rem;
+}
+
+a:hover {
+    box-shadow: 1px 8px 8px #505050;
+    -moz-box-shadow: 33px 130px 122px #776e6e;
+    -o-transition: .1.5s;
+    -ms-transition: .1.5s;
+    -moz-transition: .1.5s;
+    -webkit-transition: .1.5s;
+    transition: .2s;
 }
 
 /* anchor tag */
@@ -79,10 +93,11 @@ a:focus {
     text-align: left;
 }
 
-.section2{
+.section2 {
     background-color: #808080;
     padding: 1rem 0rem 3rem 0rem;
 }
+
 .projects-section {
     display: flex;
     flex-wrap: wrap;
@@ -95,21 +110,11 @@ a:focus {
     box-shadow: 10px 10px 80px #505050;
     -moz-box-shadow: 33px 130px 122px #776e6e;
     padding-right: 2rem;
-    -o-transition:.1.5s;
-    -ms-transition:.1.5s;
-    -moz-transition:.1.5s;
-    -webkit-transition:.1.5s;
-    transition:.2s;
-}
-
-a:hover {
-    box-shadow: 10px 10px 80px #505050;
-    -moz-box-shadow: 33px 130px 122px #776e6e;
-    -o-transition:.1.5s;
-    -ms-transition:.1.5s;
-    -moz-transition:.1.5s;
-    -webkit-transition:.1.5s;
-    transition:.2s;
+    -o-transition: .1.5s;
+    -ms-transition: .1.5s;
+    -moz-transition: .1.5s;
+    -webkit-transition: .1.5s;
+    transition: .2s;
 }
 
 .image {
@@ -129,6 +134,10 @@ a:hover {
     border: none;
     border-radius: 0.5rem;
     margin-bottom: 1rem;
+}
+
+.section4 {
+    margin-top: 1rem;
 }
 
 .video-section {
